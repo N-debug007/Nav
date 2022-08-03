@@ -1,0 +1,49 @@
+.topnav {
+  background-color: black;
+  color: white;
+  font-size: large;
+  width: 78%;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  padding-left: 12px;
+}
+
+.navbar,
+.home,
+.link,
+.dropdown,
+.disabled {
+  padding-right: 15px;
+}
+
+.link,
+.dropdown {
+  color: grey;
+}
+.disabled {
+  color: darkgray;
+  padding-right: 50px;
+}
+.placeholder {
+  height: 35px;
+  width: 250px;
+  color: grey;
+  font-weight: 200;
+  padding-left: 15px;
+  border-radius: 6px;
+}
+::placeholder {
+  color: darkgray;
+  font-weight: lighter;
+  font-size: larger;
+}
+.button {
+  padding: 10px 0 10px 10px;
+  background-color: black;
+  color: green;
+  text-align: center;
+  border: 1.5px solid green;
+  font-weight: bold;
+  border-radius: 4px;
+  width: 90px;
+}
